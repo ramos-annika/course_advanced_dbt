@@ -1,3 +1,3 @@
-{% macro month_trunc(date_column) -%}
-    date(date_trunc('month', date_column))
+{% macro month_trunc(column_name) -%}
+    date(date_trunc('month', {{ column_name }}))
 {%- endmacro %}

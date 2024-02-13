@@ -17,6 +17,6 @@ macros:
   - name: month_trunc
     description: A macro to truncate the date to the month
     arguments:
-      - name: date_column
+      - name: column_name
         type: date
         description: the date truncated to the month
